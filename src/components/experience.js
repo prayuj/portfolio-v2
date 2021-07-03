@@ -5,6 +5,7 @@ const FullHeightContainer = styled(Container)`
     display:flex;
     align-items: center;
     justify-content: center;
+    margin: 1em 0;
 `
 
 const Experience = ({id}) => {
