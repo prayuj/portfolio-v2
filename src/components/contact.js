@@ -2,7 +2,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 import styled from 'styled-components';
 
 const FullHeightContainer = styled(Container)`
-    min-height: 100vh
+    display:flex;
+    align-items: center;
+    justify-content: center;
 `
 
 const Contact = ({id}) => {

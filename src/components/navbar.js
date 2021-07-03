@@ -4,9 +4,6 @@ import styled from 'styled-components';
 
 const StyledNavbar = styled(Navbar)`
     background-color: var(--dark-color);
-    @media (min-width:992px) {
-        
-    }
 `;
 
 const StyledNavbarBrand = styled(Navbar.Brand)`
@@ -35,7 +32,7 @@ const toggleButtonStyle = {
 
 const Navigation = () => {
     return (
-        <StyledNavbar expand="lg" collapseOnSelect={true}>
+        <StyledNavbar expand="lg" collapseOnSelect={true} sticky="top">
             <StyledNavbarBrand href="/" className="display-flex">
                 <span>
                     <NormalHeading>prayuj</NormalHeading>
