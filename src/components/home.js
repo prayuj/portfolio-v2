@@ -3,11 +3,11 @@ import styled from 'styled-components';
 import TextLoop from "react-text-loop";
 import profilePicDark from "../img/profile-mobile-darkBG.jpg";
 
-const FullHeightContainer = styled(Container)`
+const StyledContainer = styled(Container)`
     display:flex;
     align-items: center;
     justify-content: center;
-    margin: 1em 0;
+    min-height: 100vh;
 `
 
 const StyledIntroCol = styled(Col)`
@@ -17,25 +17,30 @@ const StyledIntroCol = styled(Col)`
     justify-content: center;
 `
 
+const CustomImage = styled.img`
+    width:100%;
+    max-width: 315px;
+`
+
 const Home = ({ id }) => {
 
-    const one = <h3>Hi,</h3>;
-    const two = <h3>I am Prayuj Pillai!</h3>
-    const three = <h3>I am a Software Engineer and </h3>
-    const four = <h3><TextLoop interval={3000}>
+    const one = <h5>Hi,</h5>;
+    const two = <h5>My name is</h5>;
+    const three = <h3>Prayuj Pillai!</h3>;
+    const four = <h5>I am a Software Engineer and </h5>
+    const five = <h5><TextLoop interval={3000}>
         <span>a Full Stack Developer. </span>
         <span>a Tech Enthusiast. </span>
         <span>a Web Developer. </span>
-    </TextLoop></h3>
+    </TextLoop></h5>
 
-    const items = [one, two, three, four]
+    const items = [one, two, three, four, five]
 
     return (
-        <FullHeightContainer id={id} fluid="lg">
+        <StyledContainer id={id} fluid="lg">
             <Row xs={1} md={2}>
                 <Col>
-                    <img src={profilePicDark}
-                        width="75%" />
+                    <CustomImage src={profilePicDark} />
                 </Col>
                 <StyledIntroCol>
                     {items.map((item, i) => (
@@ -43,7 +48,7 @@ const Home = ({ id }) => {
                     ))}
                 </StyledIntroCol>
             </Row>
-        </FullHeightContainer>
+        </StyledContainer>
     );
 }
 

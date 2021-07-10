@@ -1,9 +1,5 @@
 .App {
   text-align: center;
-  --dark-color: #0c0f0a;
-  --light-color: #fff;
-  --accent-color: #ff206e;
-  height: 100vh;
   font-family: 'Poppins', sans-serif;
   background: var(--dark-color);
   color: var(--light-color);

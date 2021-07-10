@@ -32,7 +32,7 @@ const toggleButtonStyle = {
 
 const Navigation = () => {
     return (
-        <StyledNavbar expand="lg" collapseOnSelect={true} sticky="top">
+        <StyledNavbar expand="lg" fixed="top">
             <StyledNavbarBrand href="/" className="display-flex">
                 <span>
                     <NormalHeading>prayuj</NormalHeading>
