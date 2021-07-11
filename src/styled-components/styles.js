@@ -23,7 +23,7 @@ const StyledContainer = styled(Container)`
     display:flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 5em;
+    padding-top: 5em;
 `
 const StyledRow = styled(Row)`
     width: 100%;
