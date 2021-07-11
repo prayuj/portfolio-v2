@@ -23,6 +23,9 @@ function App() {
             <Navigation />
           </Col>
         </FixedNavRow>
+        <Row id='overlay-content'>
+          <Col></Col>
+        </Row>
         <Row id='main-content'>
           <Col>
             <Home id="home" />

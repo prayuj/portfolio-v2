@@ -17,7 +17,7 @@
   border-color: none;
 }
 
-.animated-icon1, #animated-icon2, .animated-icon3 {
+.animated-icon1, #animated-icon, .animated-icon3 {
   width: 30px;
   height: 20px;
   position: relative;
@@ -33,7 +33,7 @@
   cursor: pointer;
 }
 
-.animated-icon1 span, #animated-icon2 span, .animated-icon3 span {
+.animated-icon1 span, #animated-icon span, .animated-icon3 span {
   display: block;
   position: absolute;
   height: 3px;
@@ -51,52 +51,55 @@
   transition: .25s ease-in-out;
 }
 
-#animated-icon2 span:nth-child(1) {
+#animated-icon span:nth-child(1) {
   top: 0px;
 }
 
-#animated-icon2 span:nth-child(2), #animated-icon2 span:nth-child(3) {
+#animated-icon span:nth-child(2), #animated-icon span:nth-child(3) {
   top: 10px;
 }
 
-#animated-icon2 span:nth-child(4) {
+#animated-icon span:nth-child(4) {
   top: 20px;
 }
 
-#animated-icon2.open span:nth-child(1) {
+#animated-icon.open span:nth-child(1) {
   top: 11px;
   width: 0%;
   left: 50%;
 }
 
-#animated-icon2.open span:nth-child(2) {
+#animated-icon.open span:nth-child(2) {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
-#animated-icon2.open span:nth-child(3) {
+#animated-icon.open span:nth-child(3) {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 
-#animated-icon2.open span:nth-child(4) {
+#animated-icon.open span:nth-child(4) {
   top: 11px;
   width: 0%;
   left: 50%;
 }
 
-#animated-icon2 span {
+#animated-icon span {
   background: var(--accent-color);
-}
-
-.lift-up {
-  z-index: 150;
 }
 
 .fade-content {
   opacity: .3;
+}
+
+.disable-website {
+  height: 100vh;
+  position: fixed;
+  z-index: 1020;
+  width: 100%;
 }
