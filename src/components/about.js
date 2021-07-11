@@ -1,25 +1,8 @@
 import { Container, Row, Col, Badge } from 'react-bootstrap';
 import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaPython, FaJava } from 'react-icons/fa';
 import { SiJavascript, SiMongodb, SiJquery} from 'react-icons/si'
-import {StyledLink} from '../styled-components/styles'
+import { StyledLink, StyledSpan, AccentedIndex, StyledContainer, StyledRow, StyledCol} from '../styled-components/styles'
 import styled from 'styled-components';
-
-const StyledContainer = styled(Container)`
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1em 0;
-`
-
-const StyledSpan = styled.span`
-    display:flex;
-    align-items: center;
-`
-
-const AccentedIndex = styled.span`
-    color: var(--accent-color);
-    margin-right: 10px;
-`
 
 const StyledBadge = styled(Badge)`
     font-size:100%;
@@ -52,12 +35,12 @@ const About = ({id}) => {
     const items = [one, two, three, four, five]
     return (
         <StyledContainer id={id} fluid="lg">
-            <Row>
-                <Col style={{textAlign: 'justify'}}>
+            <StyledRow>
+                <StyledCol>
                     {items.map((item, i) => (<div>{item}</div>
                     ))}
-                </Col>
-            </Row>
+                </StyledCol>
+            </StyledRow>
         </StyledContainer>
     );
 }

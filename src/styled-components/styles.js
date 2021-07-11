@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Container, Row, Col} from 'react-bootstrap';
 
 const StyledLink = styled.a`
     color: var(--accent-color);
@@ -8,4 +9,28 @@ const StyledLink = styled.a`
     }
 `
 
-export {StyledLink};
+const StyledSpan = styled.span`
+    display:flex;
+    align-items: center;
+`
+
+const AccentedIndex = styled.span`
+    color: var(--accent-color);
+    margin-right: 10px;
+`
+
+const StyledContainer = styled(Container)`
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5em;
+`
+const StyledRow = styled(Row)`
+    width: 100%;
+`
+
+const StyledCol = styled(Col)`
+    text-align: justify;
+`
+
+export { StyledLink, StyledSpan, AccentedIndex, StyledContainer, StyledRow, StyledCol};
