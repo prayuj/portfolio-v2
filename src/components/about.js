@@ -1,5 +1,5 @@
 import { Container, Row, Col, Badge } from 'react-bootstrap';
-import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaPython } from 'react-icons/fa';
+import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaPython, FaJava } from 'react-icons/fa';
 import { SiJavascript, SiMongodb, SiJquery} from 'react-icons/si'
 import {StyledLink} from '../styled-components/styles'
 import styled from 'styled-components';
@@ -22,7 +22,7 @@ const AccentedIndex = styled.span`
 `
 
 const StyledBadge = styled(Badge)`
-    font-size:90%;
+    font-size:100%;
     margin: 0.3em;
 `
 
@@ -40,7 +40,8 @@ const About = ({id}) => {
         { icon: FaNodeJs, name: 'NodeJs', color: '#6AB24D'},
         { icon: SiMongodb, name: 'Mongodb', color: '#108B4B'},
         { icon: SiJquery, name: 'jQuery', color: '#0764A4' },
-        { icon: FaPython, name: 'Python', color: '#F2C53D'}
+        { icon: FaPython, name: 'Python', color: '#F2C53D'},
+        { icon: FaJava, name: 'Java', color: '#EA2F30'}
     ]
 
     const five = <p style={{textAlign: 'center'}}>
