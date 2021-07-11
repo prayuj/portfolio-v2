@@ -20,9 +20,6 @@ const AccentedIndex = styled.span`
 `
 
 const StyledContainer = styled(Container)`
-    display:flex;
-    align-items: center;
-    justify-content: center;
     padding-top: 5em;
 `
 const StyledRow = styled(Row)`
