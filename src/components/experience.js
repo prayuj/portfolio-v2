@@ -1,5 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import styled from 'styled-components';
+import Tabs from 'react-bootstrap/Tabs'
 
 const FullHeightContainer = styled(Container)`
     display:flex;
