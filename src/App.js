@@ -23,7 +23,7 @@ function App() {
             <Navigation />
           </Col>
         </FixedNavRow>
-        <Row>
+        <Row id='main-content'>
           <Col>
             <Home id="home" />
             <About id="about" />

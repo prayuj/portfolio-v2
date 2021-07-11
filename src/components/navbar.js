@@ -1,6 +1,7 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import styled from 'styled-components';
+import { useState } from 'react'
 
 const StyledNavbar = styled(Navbar)`
     background-color: var(--dark-color);
@@ -26,13 +27,22 @@ const StyledNavLink = styled(Nav.Link)`
     color: var(--light-color) !important;
 `
 
-const toggleButtonStyle = {
-    color: "var(--light-color)"
-};
+const CustomElement = <button>
+    Hello World
+</button>
 
 const Navigation = () => {
+    const [expanded, toggleExpanded] = useState(false);
+
+    const handleMenuToggle = (e) => {
+        toggleExpanded(!expanded);
+        document.getElementById("animated-icon2").classList.toggle('open');
+        document.getElementById("main-content").classList.toggle('fade-content');
+        document.getElementById("menu-navbar").classList.toggle('lift-up');
+    }
+
     return (
-        <StyledNavbar expand="lg" fixed="top">
+        <StyledNavbar expand="lg" fixed="top" expanded={expanded} id='menu-navbar' onSelect={handleMenuToggle }>
             <StyledNavbarBrand href="/" className="display-flex">
                 <span>
                     <NormalHeading>prayuj</NormalHeading>
@@ -41,10 +51,17 @@ const Navigation = () => {
                     <AccentedHeading>.tech</AccentedHeading>
                 </span>
             </StyledNavbarBrand>
-            <Navbar.Toggle style={toggleButtonStyle}/>
-            <Navbar.Collapse>
+            <button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent23"
+                aria-controls="navbarSupportedContent23" aria-expanded="false" aria-label="Toggle navigation" onClick={handleMenuToggle}>
+                <div id="animated-icon2">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <Navbar.Collapse id="navbarSupportedContent23">
                 <Nav className="mr-auto">
-
                 </Nav>
                 <Nav>
                     <StyledNavLink href="#home">Home</StyledNavLink>
