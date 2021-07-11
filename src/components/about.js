@@ -1,7 +1,7 @@
 import { Container, Row, Col, Badge } from 'react-bootstrap';
 import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaPython, FaJava } from 'react-icons/fa';
 import { SiJavascript, SiMongodb, SiJquery} from 'react-icons/si'
-import { StyledLink, StyledSpan, AccentedIndex, StyledContainer, StyledRow, StyledCol} from '../styled-components/styles'
+import { StyledLink, StyledSpan, AccentedIndex, StyledContainer, StyledRow, StyledCol} from '../utils/styles'
 import styled from 'styled-components';
 
 const StyledBadge = styled(Badge)`

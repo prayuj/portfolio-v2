@@ -2,7 +2,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import styled from 'styled-components'; 
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import { useState } from 'react';
-import { StyledLink, StyledSpan, AccentedIndex, StyledContainer, StyledRow, StyledCol } from '../styled-components/styles'
+import { StyledLink, StyledSpan, AccentedIndex, StyledContainer, StyledRow, StyledCol } from '../utils/styles'
 
 const StyledJumbotron = styled(Jumbotron)`
     background: var(--dark-color);
