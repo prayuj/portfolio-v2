@@ -1,7 +1,7 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import styled from 'styled-components';
-import { useState } from 'react'
+import { useState } from 'react';
 
 const StyledNavbar = styled(Navbar)`
     background-color: var(--dark-color);
