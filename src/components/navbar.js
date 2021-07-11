@@ -27,18 +27,14 @@ const StyledNavLink = styled(Nav.Link)`
     color: var(--light-color) !important;
 `
 
-const CustomElement = <button>
-    Hello World
-</button>
-
 const Navigation = () => {
     const [expanded, toggleExpanded] = useState(false);
 
-    const handleMenuToggle = (e) => {
+    const handleMenuToggle = () => {
         toggleExpanded(!expanded);
-        document.getElementById("animated-icon2").classList.toggle('open');
+        document.getElementById("animated-icon").classList.toggle('open');
         document.getElementById("main-content").classList.toggle('fade-content');
-        document.getElementById("menu-navbar").classList.toggle('lift-up');
+        document.getElementById("overlay-content").classList.toggle('disable-website');
     }
 
     return (
@@ -51,16 +47,15 @@ const Navigation = () => {
                     <AccentedHeading>.tech</AccentedHeading>
                 </span>
             </StyledNavbarBrand>
-            <button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent23"
-                aria-controls="navbarSupportedContent23" aria-expanded="false" aria-label="Toggle navigation" onClick={handleMenuToggle}>
-                <div id="animated-icon2">
+            <button class="navbar-toggler second-button" onClick={handleMenuToggle}>
+                <div id="animated-icon">
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
             </button>
-            <Navbar.Collapse id="navbarSupportedContent23">
+            <Navbar.Collapse>
                 <Nav className="mr-auto">
                 </Nav>
                 <Nav>
