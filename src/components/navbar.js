@@ -38,7 +38,7 @@ const Navigation = () => {
     }
 
     return (
-        <StyledNavbar expand="lg" fixed="top" expanded={expanded} id='menu-navbar' onSelect={handleMenuToggle }>
+        <StyledNavbar expand="lg" fixed="top" expanded={expanded} id='menu-navbar' onSelect={()=> expanded && handleMenuToggle()}>
             <StyledNavbarBrand href="/" className="display-flex">
                 <span>
                     <NormalHeading>prayuj</NormalHeading>
