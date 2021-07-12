@@ -63,7 +63,7 @@ const Navigation = () => {
                     <StyledNavLink href="#about">About</StyledNavLink>
                     <StyledNavLink href="#experience">Experience</StyledNavLink>
                     <StyledNavLink href="#projects">Projects</StyledNavLink>
-                    <StyledNavLink href="#contact">Contact</StyledNavLink>
+                    <StyledNavLink href="#contact">Connect</StyledNavLink>
                 </Nav>
             </Navbar.Collapse>
         </StyledNavbar>
