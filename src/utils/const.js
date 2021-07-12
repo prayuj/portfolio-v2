@@ -1,4 +1,11 @@
-module.exports.experiences = [
+import taskManagerThumbnail from '../img/task-manager.png';
+import chatAppThumbnail from '../img/chat-app.png';
+import gameRentThumbnail from '../img/game-rent.png';
+import timeTableThumbnail from '../img/timetable.png';
+import billSplitterThumbnail from '../img/bill-splitter.png';
+import iotPythonThumbnail from '../img/iot-python.png';
+
+const experiences = [
     {
         index: 0,
         organization: 'Cimpress',
@@ -30,10 +37,11 @@ module.exports.experiences = [
     }
 ];
 
-module.exports.projects = [
+const projects = [
     {
         index: 0,
         name: 'Task Manager',
+        image: taskManagerThumbnail,
         links: [
             {
                 name: 'wesbiteLink',
@@ -51,6 +59,7 @@ module.exports.projects = [
     {
         index: 1,
         name: 'Chat App using Socket.io',
+        image: chatAppThumbnail, 
         links: [
             {
                 name: 'wesbiteLink',
@@ -69,6 +78,7 @@ module.exports.projects = [
     {
         index: 2,
         name: 'Game Renting Service',
+        image: gameRentThumbnail,
         links: [
             {
                 name: 'wesbiteLink',
@@ -92,6 +102,7 @@ module.exports.projects = [
     {
         index: 3,
         name: 'Timetable Generation using AI',
+        image: timeTableThumbnail,
         links: [
             {
                 name: 'githubLink',
@@ -115,6 +126,7 @@ module.exports.projects = [
     {
         index: 4,
         name: 'Bill Splitter',
+        image: billSplitterThumbnail,
         links: [
 
             {
@@ -135,6 +147,7 @@ module.exports.projects = [
     {
         index: 5,
         name: 'Calculator using Arduino with Python',
+        image: iotPythonThumbnail,
         links: [
             {
                 name: 'githubLink',
@@ -156,10 +169,12 @@ module.exports.projects = [
 
 ]
 
-module.exports.iconObjects = {
+const iconObjects = {
     wesbiteLink: 'fas fa-external-link-alt',
     githubLink: 'fab fa-github-square',
-    linkedinLink: 'fab fa-linkedinLink',
+    linkedinLink: 'fab fa-linkedin-in',
     youtubeLink: 'fab fa-youtube',
     paperLink: 'fas fa-newspaper'
 }
+
+export {experiences, projects, iconObjects}
