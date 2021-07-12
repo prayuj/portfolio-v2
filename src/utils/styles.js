@@ -24,7 +24,6 @@ const StyledContainer = styled(Container)`
     max-width: 960px;
 `
 const StyledRow = styled(Row)`
-    width: 100%;
     justify-content: center;
 `
 
