@@ -103,3 +103,44 @@
   z-index: 1020;
   width: 100%;
 }
+
+.form-control.custom-form-input:focus {
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 .2rem #ff206e69;
+}
+
+.custom-modal .modal-content {
+  background: var(--dark-color);
+  color: var(--light-color);
+  border-color: var(--accent-color);
+  font-family: 'Poppins', sans-serif;
+}
+
+.custom-button.btn-primary {
+  background: var(--dark-color);
+  color: var(--light-color);
+  border-color: var(--accent-color);
+}
+
+.custom-button.btn-primary:hover {
+  background: var(--accent-color);
+  color: var(--light-color);
+  border-color: var(--accent-color);
+}
+
+.custom-button.btn-primary:not(:disabled):not(.disabled).active, .custom-button.btn-primary:not(:disabled):not(.disabled):active, .custom-button.show>.btn-primary.dropdown-toggle {
+  background: var(--accent-color);
+  color: var(--light-color);
+  border-color: var(--accent-color);
+}
+
+.custom-button.btn-primary.focus, .custom-button.btn-primary:focus {
+  background: var(--accent-color);
+  color: var(--light-color);
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 .2rem #ff206e69;
+}
+
+.custom-button.btn-primary:focus-visible {
+  outline: none;
+}
