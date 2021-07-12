@@ -1,4 +1,4 @@
-import { Container, Row, Col, Badge } from 'react-bootstrap';
+import { Badge } from 'react-bootstrap';
 import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaPython, FaJava } from 'react-icons/fa';
 import { SiJavascript, SiMongodb, SiJquery} from 'react-icons/si'
 import { StyledLink, StyledSpan, AccentedIndex, StyledContainer, StyledRow, StyledCol} from '../utils/styles'

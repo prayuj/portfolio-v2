@@ -1,4 +1,3 @@
-import { Container, Row, Col } from 'react-bootstrap';
 import styled from 'styled-components';
 import { StyledLink, StyledSpan, AccentedIndex, StyledContainer, StyledRow, StyledCol } from '../utils/styles'
 import { projects, iconObjects } from '../utils/const';

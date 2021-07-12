@@ -1,6 +1,4 @@
-import { Container, Row, Col } from 'react-bootstrap';
 import styled from 'styled-components'; 
-import Jumbotron from 'react-bootstrap/Jumbotron';
 import { StyledLink, StyledSpan, AccentedIndex, StyledContainer, StyledRow, StyledCol } from '../utils/styles'
 import { experiences } from '../utils/const'
 import Card from 'react-bootstrap/Card';
@@ -9,10 +7,6 @@ const StyledCard = styled(Card)`
     background: var(--dark-color);
     border: 1px solid var(--accent-color);
     height: 100%;
-`
-
-const StyledJumbotron = styled(Jumbotron)`
-    background: var(--dark-color);
 `
 
 const cardColumnStyles = {
