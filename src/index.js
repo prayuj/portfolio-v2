@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+ 
+import { init } from 'emailjs-com';
+init("user_icrCIz9GCW0VYzuP68nr2");
 
 ReactDOM.render(
   <React.StrictMode>
