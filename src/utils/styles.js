@@ -21,9 +21,11 @@ const AccentedIndex = styled.span`
 
 const StyledContainer = styled(Container)`
     padding-top: 5em;
+    max-width: 960px;
 `
 const StyledRow = styled(Row)`
     width: 100%;
+    justify-content: center;
 `
 
 const StyledCol = styled(Col)`
