@@ -16,7 +16,7 @@ const StyledJumbotron = styled(Jumbotron)`
 `
 
 const cardColumnStyles = {
-    paddingBottom: '15px'
+    padding: '15px'
 }
 
 const Experience = ({id}) => {
@@ -36,13 +36,9 @@ const Experience = ({id}) => {
                                 <Card.Title>{experience.designation} @ <StyledLink target="_blank" rel="noreferrer" href={experience.link}>{experience.organization}</StyledLink></Card.Title>
                                 <Card.Subtitle className="mb-2 text-muted">{experience.duration}</Card.Subtitle>
                                 <Card.Text>
-                                    <ul>
-                                        {experience.description.map((point, index) => (
-                                            <li className="display-flex">
-                                                <p>{point}</p>
-                                            </li>
-                                        ))}
-                                    </ul>
+                                    {experience.description.map((point, index) => (
+                                        <p>{point}</p>
+                                    ))}
                                 </Card.Text>
                             </Card.Body>
                         </StyledCard>
