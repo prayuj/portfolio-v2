@@ -20,7 +20,7 @@ const AccentedIndex = styled.span`
 `
 
 const StyledContainer = styled(Container)`
-    padding-top: 5em;
+    padding: 2.5em 0;
     max-width: 960px;
 `
 const StyledRow = styled(Row)`
