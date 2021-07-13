@@ -24,6 +24,7 @@ const AccentedIndex = styled.span`
 const StyledContainer = styled(Container)`
     padding: 2.5em 0;
     max-width: 960px;
+    border-bottom: .5px solid var(--dark);
 `
 const StyledRow = styled(Row)`
     justify-content: center;
@@ -35,7 +36,6 @@ const StyledCol = styled(Col)`
 
 const StyledCard = styled(Card)`
     background: var(--dark-color);
-    border: .5px solid var(--light-color);
     height: 100%;
     &:hover {
         box-shadow: 0 0 1.0em var(--accent-color);
