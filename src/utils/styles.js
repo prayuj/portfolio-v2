@@ -31,7 +31,7 @@ const StyledRow = styled(Row)`
 `
 
 const StyledCol = styled(Col)`
-    text-align: justify;
+    text-align: left;
 `
 
 const StyledCard = styled(Card)`

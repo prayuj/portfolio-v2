@@ -1,4 +1,5 @@
 import taskManagerThumbnail from '../img/task-manager.png';
+import urlCustomizer from '../img/url-customizer.png';
 import chatAppThumbnail from '../img/chat-app.png';
 import gameRentThumbnail from '../img/game-rent.png';
 import timeTableThumbnail from '../img/timetable.png';
@@ -41,7 +42,6 @@ const experiences = [
 
 const projects = [
     {
-        index: 0,
         name: 'Task Manager',
         image: taskManagerThumbnail,
         links: [
@@ -59,7 +59,22 @@ const projects = [
         languages: 'NodeJS, Express, Mongo, Jest'
     },
     {
-        index: 1,
+        name: 'URL Customizer',
+        image: urlCustomizer,
+        links: [
+            {
+                name: 'githubLink',
+                link: 'http://urls.prayuj.tech/t/jalebi'
+            }
+        ],
+        desc: `Ever since I started working for Cimpress Customization has always excited me. This project is an example of this exhilaration. 
+            It works alot like Bitly and other URL shorteners, however in this case I wanted a more customized experience. This application maps any url to 
+            a custom and unique endpoint. Whats more, if you don't have a name to give your new custom endpoint, you can set a list of default names. 
+            I made use of some delicious Indian food as those defaults and you can see an example of this in the github link below. Most links on this page make use of
+            the url shortner.`,
+        languages: 'NodeJS, Mongodb'
+    },
+    {
         name: 'Chat App using Socket.io',
         image: chatAppThumbnail, 
         links: [
@@ -78,7 +93,6 @@ const projects = [
         languages: 'NodeJS, Socket.io'
     },
     {
-        index: 2,
         name: 'Game Renting Service',
         image: gameRentThumbnail,
         links: [
@@ -102,7 +116,6 @@ const projects = [
         languages: 'Mongo, Express, React, Node'
     },
     {
-        index: 3,
         name: 'Timetable Generation using AI',
         image: timeTableThumbnail,
         links: [
@@ -126,7 +139,6 @@ const projects = [
         languages: 'Python, React'
     },
     {
-        index: 4,
         name: 'Bill Splitter',
         image: billSplitterThumbnail,
         links: [
@@ -147,7 +159,6 @@ const projects = [
         languages: 'React, Flask'
     },
     {
-        index: 5,
         name: 'Calculator using Arduino with Python',
         image: iotPythonThumbnail,
         links: [
