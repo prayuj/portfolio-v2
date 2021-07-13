@@ -36,6 +36,7 @@ const StyledCol = styled(Col)`
 
 const StyledCard = styled(Card)`
     background: var(--dark-color);
+    border-radius: 25px;
     height: 100%;
     &:hover {
         box-shadow: 0 0 1.0em var(--accent-color);
