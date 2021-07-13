@@ -22,7 +22,7 @@ const AccentedIndex = styled.span`
 `
 
 const StyledContainer = styled(Container)`
-    padding: 2.5em 0;
+    padding-top: 75px;
     max-width: 960px;
     border-bottom: .5px solid var(--dark);
 `
