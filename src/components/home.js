@@ -1,4 +1,6 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import styled from 'styled-components';
 import TextLoop from "react-text-loop";
 import profilePicDark from "../img/profile-mobile-darkBG.jpg";

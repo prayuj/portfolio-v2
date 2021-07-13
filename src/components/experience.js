@@ -1,7 +1,9 @@
 import { StyledLink, StyledSpan, AccentedIndex, StyledContainer, StyledRow, StyledCol, StyledCard } from '../utils/styles'
 import { FaAngleRight } from 'react-icons/fa';
-import { experiences } from '../utils/const'
-import { Container, Row, Col } from 'react-bootstrap';
+import { experiences } from '../utils/const';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 
 const cardColumnStyles = {
