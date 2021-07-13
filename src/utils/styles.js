@@ -36,7 +36,7 @@ const StyledCard = styled(Card)`
     border: 1px solid var(--accent-color);
     height: 100%;
     &:hover {
-        box-shadow: 0 0 0.5em gold;
+        box-shadow: 0 0 0.5em var(--light-color);
     }
 `
 

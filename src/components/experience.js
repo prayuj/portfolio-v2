@@ -1,5 +1,7 @@
 import { StyledLink, StyledSpan, AccentedIndex, StyledContainer, StyledRow, StyledCol, StyledCard } from '../utils/styles'
+import { FaAngleRight } from 'react-icons/fa';
 import { experiences } from '../utils/const'
+import { Container, Row, Col } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 
 const cardColumnStyles = {
@@ -23,9 +25,14 @@ const Experience = ({id}) => {
                                 <Card.Title>{experience.designation} @ <StyledLink target="_blank" rel="noreferrer" href={experience.link}>{experience.organization}</StyledLink></Card.Title>
                                 <Card.Subtitle className="mb-2 text-muted">{experience.duration}</Card.Subtitle>
                                 <Card.Text>
+                                    <Container>
                                     {experience.description.map((point, index) => (
-                                        <p>{point}</p>
+                                        <Row>
+                                            <Col xs={1} md={1} lg={1} xl={1} style={{maxWidth:'1%'}}><FaAngleRight style={{color:'var(--accent-color)'}}/></Col>
+                                            <Col><p>{point}</p></Col>
+                                        </Row>
                                     ))}
+                                    </Container>
                                 </Card.Text>
                             </Card.Body>
                         </StyledCard>
