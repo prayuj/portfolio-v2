@@ -24,17 +24,16 @@ const CustomImage = styled.img`
 
 const Home = ({ id }) => {
 
-    const one = <h5>Hi,</h5>;
-    const two = <h5>My name is</h5>;
-    const three = <h3>Prayuj Pillai!</h3>;
-    const four = <h5>I am a Software Engineer and </h5>
-    const five = <h5><TextLoop interval={3000}>
+    const one = <h5>Hi, My name is</h5>;
+    const two = <h3>Prayuj Pillai!</h3>;
+    const three = <h5>I am a Software Engineer and </h5>
+    const four = <h5><TextLoop interval={3000}>
         <span>a Full Stack Developer. </span>
         <span>a Tech Enthusiast. </span>
         <span>a Web Developer. </span>
     </TextLoop></h5>
 
-    const items = [one, two, three, four, five]
+    const items = [one, two, three, four]
 
     return (
         <StyledContainer id={id} fluid="lg">
