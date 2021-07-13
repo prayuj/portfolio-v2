@@ -1,4 +1,5 @@
-import { StyledSpan, AccentedIndex, StyledContainer, StyledRow, StyledCol } from '../utils/styles'
+import { StyledSpan, AccentedIndex, StyledContainer, StyledRow, StyledCol, StyledLink } from '../utils/styles';
+import { Container, Row, Col } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Spinner from 'react-bootstrap/Spinner';
 import Modal from 'react-bootstrap/Modal';
@@ -39,8 +40,23 @@ const Contact = ({id}) => {
         setShowModal(false);
     }
 
+    const footerIcons = [
+        {
+            icon: 'fab fa-linkedin-in',
+            link: 'http://urls.prayuj.tech/t/linkedin'
+        },
+        {
+            icon: 'fab fa-github',
+            link: 'http://urls.prayuj.tech/t/github'
+        },
+        {
+            icon: 'far fa-envelope',
+            link: 'mailto:connect@prayuj.tech'
+        }
+    ]
+
     return (
-        <StyledContainer id={id}>
+        <StyledContainer id={id} style={{paddingBottom: '5em'}}>
             <StyledRow>
                 <StyledCol>
                     <StyledSpan><h5><AccentedIndex>[4]</AccentedIndex></h5><h3>Connect with Me</h3></StyledSpan>

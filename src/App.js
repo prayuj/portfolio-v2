@@ -5,6 +5,7 @@ import About from './components/about';
 import Experience from './components/experience';
 import Projects from './components/projects';
 import Contact from './components/contact';
+import Footer from './components/footer';
 import { Container, Row, Col } from 'react-bootstrap';
 import styled from 'styled-components';
 
@@ -21,6 +22,7 @@ function App() {
         <FixedNavRow>
           <Col>
             <Navigation />
+            <Footer />
           </Col>
         </FixedNavRow>
         <Row id='overlay-content'>

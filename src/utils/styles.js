@@ -3,9 +3,11 @@ import { Container, Row, Col, Card} from 'react-bootstrap';
 
 const StyledLink = styled.a`
     color: var(--accent-color);
-    text-decoration: underline;
     &:hover{
         color: var(--light-color)
+    }
+    i {
+        transform: scale(1.2);
     }
 `
 
