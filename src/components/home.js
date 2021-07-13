@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 import styled from 'styled-components';
 import TextLoop from "react-text-loop";
 import profilePicDark from "../img/profile-mobile-darkBG.jpg";
+import LazyLoad from 'react-lazyload';
 
 const StyledContainer = styled(Container)`
     display:flex;
@@ -42,7 +43,9 @@ const Home = ({ id }) => {
         <StyledContainer id={id} fluid="lg">
             <Row xs={1} md={2}>
                 <Col>
-                    <CustomImage src={profilePicDark} />
+                    <LazyLoad>
+                        <CustomImage src={profilePicDark} />
+                    </LazyLoad>
                 </Col>
                 <StyledIntroCol>
                     {items.map((item, i) => (
