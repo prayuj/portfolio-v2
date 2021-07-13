@@ -67,8 +67,7 @@ const projects = [
                 link: 'http://urls.prayuj.tech/t/jalebi'
             }
         ],
-        desc: `Ever since I started working for Cimpress Customization has always excited me. This project is an example of this exhilaration. 
-            It works alot like Bitly and other URL shorteners, however in this case I wanted a more customized experience. This application maps any url to 
+        desc: `This project works alot like Bitly and other URL shorteners, however in this case I wanted a more customized experience. This application maps any url to 
             a custom and unique endpoint. Whats more, if you don't have a name to give your new custom endpoint, you can set a list of default names. 
             I made use of some delicious Indian food as those defaults and you can see an example of this in the github link below. Most links on this page make use of
             the url shortner.`,
