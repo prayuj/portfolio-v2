@@ -13,9 +13,11 @@ const experiences = [
         designation: 'Software Engineer',
         duration: 'August 2020 - Present',
         description: [`I currently work at Cimpress’ subsidiary National Pen which is a multi-lingual, Mass Customization E-commerce platform
-            operating in 20+ nations.`,
-            `Noteable features I have engineered include: Developing and Reengineering of the Website Navigation, Adding User Segmentation to the Website,  
-            Incoporating Product Discounts on the Website.`,
+            operating in 20+ nations.`, 
+            `Developed and Implemented a new Product Data feed for Category and Search pages using Algolia.`, 
+            `Worked on the complete Redesign of Navigation Menu on the Website`,
+            `Worked with Magnolia which is a CMS and developed User Segmentation for a more Tailored Shopping Experience`,
+            `Successfully Integrated Product Discounting to the Website.`,
             `Various Technologies I have worked with include Magnolia, AWS, Serverlerss, NodeJs, GraphQL, Sentry, to name a few.`]
     },
     {
