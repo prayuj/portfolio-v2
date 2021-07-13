@@ -20,6 +20,7 @@ const StyledIntroCol = styled(Col)`
 const CustomImage = styled.img`
     width:100%;
     max-width: 315px;
+    margin-bottom: .5em;
 `
 
 const Home = ({ id }) => {
