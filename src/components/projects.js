@@ -1,13 +1,7 @@
-import styled from 'styled-components';
-import { StyledLink, StyledSpan, AccentedIndex, StyledContainer, StyledRow, StyledCol } from '../utils/styles'
+import { StyledLink, StyledSpan, AccentedIndex, StyledContainer, StyledRow, StyledCol, StyledCard } from '../utils/styles'
 import { projects, iconObjects } from '../utils/const';
 import Card from 'react-bootstrap/Card';
 
-const StyledCard = styled(Card)`
-    background: var(--dark-color);
-    border: 1px solid var(--accent-color);
-    height: 100%;
-`
 
 const linkStyles = {
     marginRight: '15px'

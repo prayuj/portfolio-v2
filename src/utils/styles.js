@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Container, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col, Card} from 'react-bootstrap';
 
 const StyledLink = styled.a`
     color: var(--accent-color);
@@ -31,4 +31,13 @@ const StyledCol = styled(Col)`
     text-align: justify;
 `
 
-export { StyledLink, StyledSpan, AccentedIndex, StyledContainer, StyledRow, StyledCol};
+const StyledCard = styled(Card)`
+    background: var(--dark-color);
+    border: 1px solid var(--accent-color);
+    height: 100%;
+    &:hover {
+        box-shadow: 0 0 0.5em gold;
+    }
+`
+
+export { StyledLink, StyledSpan, AccentedIndex, StyledContainer, StyledRow, StyledCol, StyledCard};
