@@ -4,7 +4,8 @@ import Col from 'react-bootstrap/Col';
 import styled from 'styled-components';
 import TextLoop from "react-text-loop";
 import profilePicDark from "../img/profile-mobile-darkBG.jpg";
-import LazyLoad from 'react-lazyload';
+import LazyLoad from 'react-lazyload'; 
+import Fade from 'react-reveal/Fade';
 
 const StyledContainer = styled(Container)`
     display:flex;
@@ -48,9 +49,11 @@ const Home = ({ id }) => {
                     </LazyLoad>
                 </Col>
                 <StyledIntroCol>
-                    {items.map((item, i) => (
-                        <div>{item}</div>
-                    ))}
+                    <Fade bottom>
+                        {items.map((item, i) => (
+                            <div>{item}</div>
+                        ))}
+                    </Fade>
                 </StyledIntroCol>
             </Row>
         </StyledContainer>

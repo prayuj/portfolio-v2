@@ -4,7 +4,8 @@ import Spinner from 'react-bootstrap/Spinner';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import emailjs from 'emailjs-com';
-import { useState } from 'react'
+import { useState } from 'react';
+import Fade from 'react-reveal/Fade';
 
 const Contact = ({id}) => {
 

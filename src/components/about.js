@@ -3,6 +3,7 @@ import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaPython, FaJava } from 'react-i
 import { SiJavascript, SiMongodb, SiJquery} from 'react-icons/si'
 import { StyledLink, StyledSpan, AccentedIndex, StyledContainer, StyledRow, StyledCol} from '../utils/styles'
 import styled from 'styled-components';
+import Fade from 'react-reveal/Fade';
 
 const StyledBadge = styled(Badge)`
     font-size:100%;
@@ -37,8 +38,10 @@ const About = ({id}) => {
         <StyledContainer id={id} fluid="lg">
             <StyledRow>
                 <StyledCol>
-                    {items.map((item, i) => (<div>{item}</div>
-                    ))}
+                    <Fade>
+                        {items.map((item, i) => (<div>{item}</div>
+                        ))}
+                    </Fade>
                 </StyledCol>
             </StyledRow>
         </StyledContainer>

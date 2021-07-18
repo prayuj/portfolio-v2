@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
+import Fade from 'react-reveal/Fade';
 
 const cardColumnStyles = {
     padding: '15px'
@@ -22,23 +23,25 @@ const Experience = ({id}) => {
             <StyledRow xs={1} md={1} lg={1} xl={1}>
                 {experiences.map((experience) =>
                     <StyledCol style={cardColumnStyles}>
-                        <StyledCard>
-                            <Card.Body>
-                                <Card.Title>{experience.designation} @ <StyledLink target="_blank" rel="noreferrer" href={experience.link}>{experience.organization}</StyledLink></Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted">{experience.duration}</Card.Subtitle>
-                                <Card.Text>
-                                    <Container>
-                                    {experience.description.map((point, index) => (
-                                        <Row>
-                                            <Col xs={1} md={1} lg={1} xl={1} style={{maxWidth:'1%'}}><FaAngleRight style={{color:'var(--accent-color)'}}/></Col>
-                                            <Col><p>{point}</p></Col>
-                                        </Row>
-                                    ))}
-                                    </Container>
-                                </Card.Text>
-                            </Card.Body>
-                        </StyledCard>
-                    </StyledCol>)
+                        <Fade>
+                            <StyledCard>
+                                <Card.Body>
+                                    <Card.Title>{experience.designation} @ <StyledLink target="_blank" rel="noreferrer" href={experience.link}>{experience.organization}</StyledLink></Card.Title>
+                                    <Card.Subtitle className="mb-2 text-muted">{experience.duration}</Card.Subtitle>
+                                    <Card.Text>
+                                        <Container>
+                                        {experience.description.map((point, index) => (
+                                            <Row>
+                                                <Col xs={1} md={1} lg={1} xl={1} style={{maxWidth:'1%'}}><FaAngleRight style={{color:'var(--accent-color)'}}/></Col>
+                                                <Col><p>{point}</p></Col>
+                                            </Row>
+                                        ))}
+                                        </Container>
+                                    </Card.Text>
+                                </Card.Body>
+                            </StyledCard>
+                        </Fade>
+                    </StyledCol>)   
                 }
             </StyledRow>
         </StyledContainer>
