@@ -1,7 +1,7 @@
 import { StyledLink, StyledSpan, AccentedIndex, StyledContainer, StyledRow, StyledCol, StyledCard } from '../utils/styles'
 import { projects, iconObjects } from '../utils/const';
 import Card from 'react-bootstrap/Card';
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
 
 const linkStyles = {
     marginRight: '15px'

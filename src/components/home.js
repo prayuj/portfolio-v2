@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import TextLoop from "react-text-loop";
 import profilePicDark from "../img/profile-mobile-darkBG.jpg";
 import LazyLoad from 'react-lazyload'; 
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
 
 const StyledContainer = styled(Container)`
     display:flex;

@@ -3,7 +3,7 @@ import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaPython, FaJava } from 'react-i
 import { SiJavascript, SiMongodb, SiJquery} from 'react-icons/si'
 import { StyledLink, StyledSpan, AccentedIndex, StyledContainer, StyledRow, StyledCol} from '../utils/styles'
 import styled from 'styled-components';
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
 
 const StyledBadge = styled(Badge)`
     font-size:100%;
