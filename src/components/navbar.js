@@ -25,6 +25,19 @@ const NormalHeading = styled.h2`
 
 const StyledNavLink = styled(Nav.Link)`
     color: var(--light-color) !important;
+    &:after {
+        content: '';
+        display: block;
+        width: 0;
+        border-top: 1px solid var(--accent-color);
+        margin-bottom: -1px;
+        transition: width 0.5s ease;
+    }
+    &:hover {
+        &:after{
+            width: 100%;
+        }
+    }
 `
 
 const Navigation = () => {
