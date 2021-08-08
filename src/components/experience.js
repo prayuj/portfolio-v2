@@ -23,7 +23,7 @@ const Experience = ({id}) => {
             <StyledRow xs={1} md={1} lg={1} xl={1}>
                 {experiences.map((experience) =>
                     <StyledCol style={cardColumnStyles}>
-                        <Fade>
+                        <Fade triggerOnce = {true}>
                             <StyledCard>
                                 <Card.Body>
                                     <Card.Title>{experience.designation} @ <StyledLink target="_blank" rel="noreferrer" href={experience.link}>{experience.organization}</StyledLink></Card.Title>

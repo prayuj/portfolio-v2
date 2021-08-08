@@ -49,7 +49,7 @@ const Home = ({ id }) => {
                     </LazyLoad>
                 </Col>
                 <StyledIntroCol>
-                    <Fade bottom>
+                    <Fade triggerOnce = {true} bottom>
                         {items.map((item, i) => (
                             <div>{item}</div>
                         ))}

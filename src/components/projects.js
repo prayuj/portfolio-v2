@@ -23,7 +23,7 @@ const Projects = ({ id }) => {
             <StyledRow xs={1} md={2} lg={2} xl={2}>
                 {projects.map((project) =>
                     <StyledCol style={cardColumnStyles}>
-                        <Fade>
+                        <Fade triggerOnce = {true}>
                             <StyledCard>
                                 {project.image ? <Card.Img variant="top" src={project.image} /> : ''}
                                 <Card.Body>

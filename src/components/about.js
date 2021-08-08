@@ -38,7 +38,7 @@ const About = ({id}) => {
         <StyledContainer id={id} fluid="lg">
             <StyledRow>
                 <StyledCol>
-                    <Fade>
+                    <Fade triggerOnce = {true}>
                         {items.map((item, i) => (<div>{item}</div>
                         ))}
                     </Fade>
