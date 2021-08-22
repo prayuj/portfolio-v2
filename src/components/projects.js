@@ -11,6 +11,10 @@ const cardColumnStyles = {
     paddingBottom: '15px'
 }
 
+const imgStyles = {
+    borderRadius: '25px 25px 0 0'
+}
+
 const Projects = ({ id }) => {
 
     return (
@@ -25,7 +29,7 @@ const Projects = ({ id }) => {
                     <StyledCol style={cardColumnStyles}>
                         <Fade triggerOnce = {true}>
                             <StyledCard>
-                                {project.image ? <Card.Img variant="top" src={project.image} /> : ''}
+                                {project.image ? <Card.Img variant="top" src={project.image} style = {imgStyles}/> : ''}
                                 <Card.Body>
                                     <Card.Title>{project.name}</Card.Title>
                                     <Card.Subtitle className="mb-2 text-muted">{project.languages}</Card.Subtitle>
