@@ -29,8 +29,8 @@ const StyledNavLink = styled(Nav.Link)`
         content: '';
         display: block;
         width: 0;
-        border-top: 1px solid var(--accent-color);
-        margin-bottom: -1px;
+        border-top: 3px solid var(--accent-color);
+        margin-bottom: -3px;
         transition: width 0.5s ease;
     }
     &:hover {
