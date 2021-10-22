@@ -33,9 +33,11 @@ const StyledNavLink = styled(Nav.Link)`
         margin-bottom: -3px;
         transition: width 0.5s ease;
     }
-    &:hover {
-        &:after{
-            width: 100%;
+    @media (min-width:992px) {
+        &:hover {
+            &:after{
+                width: 100%;
+            }
         }
     }
 `
