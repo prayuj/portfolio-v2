@@ -2,6 +2,7 @@ import { StyledLink, StyledSpan, AccentedIndex, StyledContainer, StyledRow, Styl
 import { projects, iconObjects } from '../utils/const';
 import Card from 'react-bootstrap/Card';
 import { Fade } from 'react-awesome-reveal';
+import LazyLoad from 'react-lazyload';
 
 const linkStyles = {
     marginRight: '15px'
@@ -29,7 +30,10 @@ const Projects = ({ id }) => {
                     <StyledCol style={cardColumnStyles}>
                         <Fade triggerOnce = {true}>
                             <StyledCard>
-                                {project.image ? <Card.Img variant="top" src={project.image} style = {imgStyles}/> : ''}
+                                {project.image ? 
+                                    <LazyLoad height={200}>
+                                        <Card.Img variant="top" src={project.image} style = {imgStyles}/>
+                                    </LazyLoad> : ''}
                                 <Card.Body>
                                     <Card.Title>{project.name}</Card.Title>
                                     <Card.Subtitle className="mb-2 text-muted">{project.languages}</Card.Subtitle>
