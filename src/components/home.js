@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import styled from 'styled-components';
 import TextLoop from "react-text-loop";
-import profilePicDark from "../img/profile-mobile-darkBG.jpg";
+import profilePic from "../img/profile-pic.webp";
 import LazyLoad from 'react-lazyload'; 
 import { Fade } from 'react-awesome-reveal';
 
@@ -23,8 +23,13 @@ const StyledIntroCol = styled(Col)`
 
 const CustomImage = styled.img`
     width:100%;
-    max-width: 315px;
-    margin-bottom: .5em;
+    border-radius: 30%;
+    max-width: 200px;
+    margin-bottom: 1.5em;
+    @media (min-width:992px) {
+        max-width: 300px;
+        margin-bottom: 0;
+    }
 `
 
 const Home = ({ id }) => {
@@ -45,7 +50,7 @@ const Home = ({ id }) => {
             <Row xs={1} md={2}>
                 <Col>
                     <LazyLoad>
-                        <CustomImage src={profilePicDark} />
+                        <CustomImage src={profilePic} />
                     </LazyLoad>
                 </Col>
                 <StyledIntroCol>
