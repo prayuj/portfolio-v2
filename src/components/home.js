@@ -50,7 +50,7 @@ const Home = ({ id }) => {
             <Row xs={1} md={2}>
                 <Col>
                     <LazyLoad>
-                        <CustomImage src={profilePic} />
+                        <CustomImage src={profilePic} alt="Prayuj Pillai Profile Picture"/>
                     </LazyLoad>
                 </Col>
                 <StyledIntroCol>

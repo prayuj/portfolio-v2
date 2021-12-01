@@ -32,7 +32,7 @@ const Projects = ({ id }) => {
                             <StyledCard>
                                 {project.image ? 
                                     <LazyLoad height={200}>
-                                        <Card.Img variant="top" src={project.image} style = {imgStyles}/>
+                                        <Card.Img variant="top" src={project.image} style = {imgStyles} alt={`${project.name} Image`}/>
                                     </LazyLoad> : ''}
                                 <Card.Body>
                                     <Card.Title>{project.name}</Card.Title>
