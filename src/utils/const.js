@@ -55,6 +55,7 @@ const projects = [
             {
                 name: 'githubLink',
                 link: 'http://urls.prayuj.tech/t/carrot-halwa?message=Task%20Manager',
+                rel: 'nofollow'
             }
         ],
         desc: `As part of Andrew Meads's Node JS course, I built a Task Manager API along with a Frontend. 
@@ -68,6 +69,7 @@ const projects = [
             {
                 name: 'githubLink',
                 link: 'http://urls.prayuj.tech/t/jalebi?message=URL%20Customizer',
+                rel: 'nofollow'
             }
         ],
         desc: `This project works alot like Bitly and other URL shorteners, however in this case I wanted a more customized experience. This application maps any url to 
@@ -87,6 +89,7 @@ const projects = [
             {
                 name: 'githubLink',
                 link: 'http://urls.prayuj.tech/t/butter-chicken?message=Chat%20App%20using%20Socket.io',
+                rel: 'nofollow'
             }
         ],
         desc: `This was a really exciting Project because for the first time I used Socket.io to make real time, 
@@ -105,10 +108,12 @@ const projects = [
             {
                 name: 'githubLink',
                 link: 'http://urls.prayuj.tech/t/chaat-papri?message=Github%3A%20Game%20Renting%20Service',
+                rel: 'nofollow'
             },
             {
                 name: 'linkedinLink',
                 link: 'http://urls.prayuj.tech/t/cham-cham?message=LinkedIn%3A%20Game%20Renting%20Service',
+                rel: 'nofollow'
             }
         ],
         desc: `This Project stemmed from a Job opportunity that was very lucrative which involved building a inventory system. 
@@ -124,14 +129,17 @@ const projects = [
             {
                 name: 'githubLink',
                 link: 'http://urls.prayuj.tech/t/chana-dal?message=Github%3A%20Timetable%20Generation%20using%20AI',
+                rel: 'nofollow'
             },
             {
                 name: 'youtubeLink',
                 link: 'http://urls.prayuj.tech/t/chana-masala?message=YouTube%3A%20Timetable%20Generation%20using%20AI',
+                rel: 'nofollow'
             },
             {
                 name: 'paperLink',
                 link: 'http://urls.prayuj.tech/t/chapati?message=Paper%3A%20Timetable%20Generation%20using%20AI',
+                rel: 'nofollow'
             }
         ],
         desc: `For the Final Year Project of my Bachelor Program in Computer Engineering, 
@@ -152,6 +160,7 @@ const projects = [
             {
                 name: 'githubLink',
                 link: 'http://urls.prayuj.tech/t/chicken-65?message=Github%3A%20Bill%20Splitter',
+                rel: 'nofollow'
             }
         ],
         desc: `Have you ever been in a situation where a bunch of your friends are out for a meal 
@@ -167,10 +176,12 @@ const projects = [
             {
                 name: 'githubLink',
                 link: 'http://urls.prayuj.tech/t/chicken-biriyani?message=Github%3A%20Calculator%20using%20Arduino%20with%20Python',
+                rel: 'nofollow'
             },
             {
                 name: 'youtubeLink',
                 link: 'http://urls.prayuj.tech/t/chicken-tikka?message=Youtube%3A%20Calculator%20using%20Arduino%20with%20Python',
+                rel: 'nofollow'
             }
         ],
         desc: `One of the earliest Projects I developed back in my Second Year of Engineering. 

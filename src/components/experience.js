@@ -26,7 +26,7 @@ const Experience = ({id}) => {
                         <Fade triggerOnce = {true}>
                             <StyledCard>
                                 <Card.Body>
-                                    <Card.Title>{experience.designation} @ <StyledLink target="_blank" rel="noreferrer" href={experience.link}>{experience.organization}</StyledLink></Card.Title>
+                                    <Card.Title>{experience.designation} @ <StyledLink target="_blank" rel="nofollow" href={experience.link}>{experience.organization}</StyledLink></Card.Title>
                                     <Card.Subtitle className="mb-2 text-muted">{experience.duration}</Card.Subtitle>
                                     <Card.Text>
                                         <Container>

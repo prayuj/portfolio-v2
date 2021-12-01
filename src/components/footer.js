@@ -33,7 +33,7 @@ const Footer = () => {
             <StyledNavBrand>Reach out to me</StyledNavBrand>
             <Nav className="mr-auto">
                 {footerIcons.map((icon, i) =>
-                    <StyledNavLink href={icon.link} target="_blank" rel="noreferrer">
+                    <StyledNavLink href={icon.link} target="_blank" rel="nofollow">
                         <i className={icon.icon}></i> </StyledNavLink>
                 )}
             </Nav>

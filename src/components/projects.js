@@ -43,7 +43,7 @@ const Projects = ({ id }) => {
                                 </Card.Body>
                                 <Card.Footer className="text-muted">    
                                     {project.links.map(linkObj =>
-                                    <StyledLink href={linkObj.link} target="_blank" rel="noreferrer" style={linkStyles}>
+                                    <StyledLink href={linkObj.link} target="_blank" rel={linkObj.rel??""} style={linkStyles}>
                                         <i className={iconObjects[linkObj.name]}></i>
                                     </StyledLink>
                                 )}</Card.Footer>
