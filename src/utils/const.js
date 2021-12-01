@@ -1,10 +1,10 @@
-import taskManagerThumbnail from '../img/task-manager.png';
-import urlCustomizer from '../img/url-customizer.png';
-import chatAppThumbnail from '../img/chat-app.png';
-import gameRentThumbnail from '../img/game-rent.png';
-import timeTableThumbnail from '../img/timetable.png';
-import billSplitterThumbnail from '../img/bill-splitter.png';
-import iotPythonThumbnail from '../img/iot-python.png';
+import taskManagerThumbnail from '../img/task-manager.webp';
+import urlCustomizer from '../img/url-customizer.webp';
+import chatAppThumbnail from '../img/chat-app.webp';
+import gameRentThumbnail from '../img/game-rent.webp';
+import timeTableThumbnail from '../img/timetable.webp';
+import billSplitterThumbnail from '../img/bill-splitter.webp';
+import iotPythonThumbnail from '../img/iot-python.webp';
 
 const experiences = [
     {
