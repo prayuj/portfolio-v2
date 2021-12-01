@@ -13,9 +13,12 @@ const experiences = [
         link: 'http://urls.prayuj.tech/t/cimpress',
         designation: 'Software Engineer',
         duration: 'August 2020 - Present',
-        description: [`I currently work at Cimpress’ subsidiary National Pen which is a multi-lingual, Mass Customization E-commerce platform
-            operating in 20+ nations.`, 
-            `Developed and Implemented a new Product Data feed for Category and Search pages using Algolia.`, 
+        description: [
+            `I currently work at Cimpress’ subsidiary National Pen which is a multi-lingual, Mass Customization E-commerce platform
+            operating in 20+ nations.`,
+            `Implemented Loqate, an Address Validation Tool, on Checkout and My-Account Pages for Address Suggestions and Sanitization.`,
+            `Developed a new Product Data feed for Category and Search pages using Algolia.`, 
+            `Integrated an Image Compression Service that compressed images on Product Details pages by upto 80% and thus greatly improving our LCP score.`,
             `Worked on the complete Redesign of Navigation Menu on the Website.`,
             `Worked with Magnolia which is a CMS and developed User Segmentation for a more Tailored Shopping Experience.`,
             `Successfully Integrated Product Discounting to the Website.`,

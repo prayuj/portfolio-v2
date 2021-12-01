@@ -23,7 +23,7 @@ const StyledIntroCol = styled(Col)`
 
 const CustomImage = styled.img`
     width:100%;
-    border-radius: 30%;
+    border-radius: 50%;
     max-width: 200px;
     margin-bottom: 1.5em;
     @media (min-width:992px) {
