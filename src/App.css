@@ -17,7 +17,7 @@
   border-color: none;
 }
 
-.animated-icon1, #animated-icon, .animated-icon3 {
+#animated-icon {
   width: 30px;
   height: 20px;
   position: relative;
@@ -33,7 +33,7 @@
   cursor: pointer;
 }
 
-.animated-icon1 span, #animated-icon span, .animated-icon3 span {
+#animated-icon span {
   display: block;
   position: absolute;
   height: 3px;
