@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Spinner from 'react-bootstrap/Spinner';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import { useState } from 'react';
 
 const Contact = ({id}) => {
