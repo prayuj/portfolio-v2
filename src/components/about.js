@@ -13,7 +13,7 @@ const StyledBadge = styled(Badge)`
 const About = ({id}) => {
     const one = <StyledSpan><h5><AccentedIndex>[1]</AccentedIndex></h5><h3>About me</h3></StyledSpan>
     const two = <p>Hello! My name is Prayuj and I am a Software Engineer and I enjoy Full Stack Development.</p>
-    const three = <p>I currently work at <StyledLink target="_blank" rel="nofollow" href="http://urls.prayuj.tech/t/cimpress?message=Cimpress" className="content-hover-link">Cimpress</StyledLink> as part of their Business subsidiary, <StyledLink target="_blank" rel="noreferrer" href="http://urls.prayuj.tech/t/np?message=National%20Pen" className="content-hover-link">National Pen.</StyledLink></p>
+    const three = <p>I currently work at <StyledLink target="_blank" rel="nofollow" href="http://urls.prayujpillai.tech/t/cimpress?message=Cimpress" className="content-hover-link">Cimpress</StyledLink> as part of their Business subsidiary, <StyledLink target="_blank" rel="noreferrer" href="http://urls.prayujpillai.tech/t/np?message=National%20Pen" className="content-hover-link">National Pen.</StyledLink></p>
     const four = <p>Here are a few technologies I am proficient in:</p>
 
     const technology = [

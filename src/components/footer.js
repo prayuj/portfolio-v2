@@ -17,15 +17,15 @@ const Footer = () => {
     const footerIcons = [
         {
             icon: 'fab fa-linkedin-in',
-            link: 'https://urls.prayuj.tech/t/linkedin?message=LinkedIn'
+            link: 'https://urls.prayujpillai.tech/t/linkedin?message=LinkedIn'
         },
         {
             icon: 'fab fa-github',
-            link: 'https://urls.prayuj.tech/t/github?message=Github'
+            link: 'https://urls.prayujpillai.tech/t/github?message=Github'
         },
         {
             icon: 'far fa-envelope',
-            link: 'mailto:connect@prayuj.tech'
+            link: 'mailto:prayuj@gmail.com'
         }
     ]
     return (

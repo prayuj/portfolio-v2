@@ -56,7 +56,7 @@ const Navigation = () => {
         <StyledNavbar expand="lg" fixed="top" expanded={expanded} id='menu-navbar' onSelect={()=> expanded && handleMenuToggle()}>
             <StyledNavbarBrand href="/" className="display-flex">
                 <span>
-                    <NormalHeading>prayuj</NormalHeading>
+                    <NormalHeading>prayujpillai</NormalHeading>
                 </span>
                 <span className="accent-style">
                     <AccentedHeading>.tech</AccentedHeading>

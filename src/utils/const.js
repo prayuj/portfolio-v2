@@ -10,7 +10,7 @@ const experiences = [
     {
         index: 0,
         organization: 'Cimpress',
-        link: 'http://urls.prayuj.tech/t/cimpress',
+        link: 'http://urls.prayujpillai.tech/t/cimpress',
         designation: 'Software Engineer',
         duration: 'August 2020 - Present',
         description: [
@@ -27,7 +27,7 @@ const experiences = [
     {
         index: 1,
         organization: 'Aegis School of Data Science',
-        link: 'http://urls.prayuj.tech/t/aegis',
+        link: 'http://urls.prayujpillai.tech/t/aegis',
         designation: 'Data Science Intern',
         duration: 'June 2019 - August 2019',
         description: [`Developed a Job Recommendation Model for Students' Placements.`, `Recommended Jobs based on the Job Requirement Skills and Grades of Students in those Skills.`
@@ -36,7 +36,7 @@ const experiences = [
     {
         index: 2,
         organization: 'CaratLane',
-        link: 'http://urls.prayuj.tech/t/caratlane',
+        link: 'http://urls.prayujpillai.tech/t/caratlane',
         designation: 'Software Engineer Intern',
         duration: 'August 2018',
         description: [`Designed and implemented a rule validation system for orders.`]
@@ -50,11 +50,11 @@ const projects = [
         links: [
             {
                 name: 'wesbiteLink',
-                link: 'https://task-manager.prayuj.tech/'
+                link: 'https://task-manager.prayujpillai.tech/'
             },
             {
                 name: 'githubLink',
-                link: 'http://urls.prayuj.tech/t/carrot-halwa?message=Task%20Manager',
+                link: 'http://urls.prayujpillai.tech/t/carrot-halwa?message=Task%20Manager',
                 rel: 'nofollow'
             }
         ],
@@ -68,7 +68,7 @@ const projects = [
         links: [
             {
                 name: 'githubLink',
-                link: 'http://urls.prayuj.tech/t/jalebi?message=URL%20Customizer',
+                link: 'http://urls.prayujpillai.tech/t/jalebi?message=URL%20Customizer',
                 rel: 'nofollow'
             }
         ],
@@ -88,7 +88,7 @@ const projects = [
             },
             {
                 name: 'githubLink',
-                link: 'http://urls.prayuj.tech/t/butter-chicken?message=Chat%20App%20using%20Socket.io',
+                link: 'http://urls.prayujpillai.tech/t/butter-chicken?message=Chat%20App%20using%20Socket.io',
                 rel: 'nofollow'
             }
         ],
@@ -107,12 +107,12 @@ const projects = [
             },
             {
                 name: 'githubLink',
-                link: 'http://urls.prayuj.tech/t/chaat-papri?message=Github%3A%20Game%20Renting%20Service',
+                link: 'http://urls.prayujpillai.tech/t/chaat-papri?message=Github%3A%20Game%20Renting%20Service',
                 rel: 'nofollow'
             },
             {
                 name: 'linkedinLink',
-                link: 'http://urls.prayuj.tech/t/cham-cham?message=LinkedIn%3A%20Game%20Renting%20Service',
+                link: 'http://urls.prayujpillai.tech/t/cham-cham?message=LinkedIn%3A%20Game%20Renting%20Service',
                 rel: 'nofollow'
             }
         ],
@@ -128,17 +128,17 @@ const projects = [
         links: [
             {
                 name: 'githubLink',
-                link: 'http://urls.prayuj.tech/t/chana-dal?message=Github%3A%20Timetable%20Generation%20using%20AI',
+                link: 'http://urls.prayujpillai.tech/t/chana-dal?message=Github%3A%20Timetable%20Generation%20using%20AI',
                 rel: 'nofollow'
             },
             {
                 name: 'youtubeLink',
-                link: 'http://urls.prayuj.tech/t/chana-masala?message=YouTube%3A%20Timetable%20Generation%20using%20AI',
+                link: 'http://urls.prayujpillai.tech/t/chana-masala?message=YouTube%3A%20Timetable%20Generation%20using%20AI',
                 rel: 'nofollow'
             },
             {
                 name: 'paperLink',
-                link: 'http://urls.prayuj.tech/t/chapati?message=Paper%3A%20Timetable%20Generation%20using%20AI',
+                link: 'http://urls.prayujpillai.tech/t/chapati?message=Paper%3A%20Timetable%20Generation%20using%20AI',
                 rel: 'nofollow'
             }
         ],
@@ -155,11 +155,11 @@ const projects = [
 
             {
                 name: 'wesbiteLink',
-                link: 'https://bill-splitter.prayuj.tech/'
+                link: 'https://bill-splitter.prayujpillai.tech/'
             },
             {
                 name: 'githubLink',
-                link: 'http://urls.prayuj.tech/t/chicken-65?message=Github%3A%20Bill%20Splitter',
+                link: 'http://urls.prayujpillai.tech/t/chicken-65?message=Github%3A%20Bill%20Splitter',
                 rel: 'nofollow'
             }
         ],
@@ -175,12 +175,12 @@ const projects = [
         links: [
             {
                 name: 'githubLink',
-                link: 'http://urls.prayuj.tech/t/chicken-biriyani?message=Github%3A%20Calculator%20using%20Arduino%20with%20Python',
+                link: 'http://urls.prayujpillai.tech/t/chicken-biriyani?message=Github%3A%20Calculator%20using%20Arduino%20with%20Python',
                 rel: 'nofollow'
             },
             {
                 name: 'youtubeLink',
-                link: 'http://urls.prayuj.tech/t/chicken-tikka?message=Youtube%3A%20Calculator%20using%20Arduino%20with%20Python',
+                link: 'http://urls.prayujpillai.tech/t/chicken-tikka?message=Youtube%3A%20Calculator%20using%20Arduino%20with%20Python',
                 rel: 'nofollow'
             }
         ],
