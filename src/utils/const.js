@@ -11,18 +11,23 @@ const experiences = [
         index: 0,
         organization: 'Cimpress',
         link: 'http://urls.prayujpillai.tech/t/cimpress',
-        designation: 'Software Engineer',
-        duration: 'August 2020 - Present',
+        designation: ' Senior Software Engineer',
+        duration: 'August 2020 - July 2022',
         description: [
-            `I currently work at Cimpress’ subsidiary National Pen which is a multi-lingual, Mass Customization E-commerce platform
-            operating in 20+ nations.`,
-            `Implemented Loqate, an Address Validation Tool, on Checkout and My-Account Pages for Address Suggestions and Sanitization.`,
-            `Developed a new Product Data feed for Category and Search pages using Algolia.`, 
-            `Integrated an Image Compression Service that compressed images on Product Details pages by upto 80% and thus greatly improving our LCP score.`,
-            `Worked on the complete Redesign of Navigation Menu on the Website.`,
-            `Worked with Magnolia which is a CMS and developed User Segmentation for a more Tailored Shopping Experience.`,
-            `Successfully Integrated Product Discounting to the Website.`,
-            `Various Technologies I have worked with include Magnolia, AWS, Serverlerss, NodeJs, GraphQL, Sentry, to name a few.`]
+            `Operated in National Pen, Cimpress’ 2nd largest Business Unit, to build a multi-tenant end-to-end micro-services based E-commerce platform operational in 24+  countries.
+            `,
+            `Led the complete redesign of category and search pages along with Algolia integration, an AI powered product data feed,
+            which led to a 46% increase in customer conversions from these pages to product pages and a 24% increase in overall
+            revenue.`,
+            `Incorporated Loqate, an address validation tool, on checkout and my account pages which led to a 9% decrease in cart
+            abandonment and reduced last-mile miss deliveries by half.`, 
+            `Engineered an in-house image compression service that improved image sizes uploaded by marketing teams resulting in a
+            reduction of “Bad URLs”, pages with Largest Contentful Paint (LCP) scores > 4 secs, on desktops devices from 1100 urls to
+            0 and 2500 urls to 1100 on mobile devices.`,
+            `Integrated x-functional team’s React Components onto the E-commerce’s non-React pages to improve data consistency
+            and user experience.`,
+            `Replaced core-js polyfills with Polyfill.io, a service that dynamically returns polyfills based on the requesting browser.
+            Minimized bundle size by 150KB and brought down Total Blocking Time (TBT) from ~3.2 secs to ~1.1 secs.`]
     },
     {
         index: 1,
