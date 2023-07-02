@@ -9,6 +9,18 @@ import iotPythonThumbnail from '../img/iot-python.webp';
 const experiences = [
     {
         index: 0,
+        organization: 'Amazon Web Services',
+        link: 'https://aws.amazon.com/iot/',
+        designation: 'Software Dev Engineer Intern',
+        duration: 'May 2023 - Present',
+        description: [
+            `Part of AWS Consumer IoT Connectivity org handling Device Management, Device Defender, and Fleethub.`,
+            `Currently involved in the development of a secure shell terminal feature for Fleethub, allowing device technicians to ssh
+            into their devices and make updates to firmware and other system properties.`,
+        ]
+    },
+    {
+        index: 1,
         organization: 'Cimpress',
         link: 'http://urls.prayujpillai.tech/t/cimpress',
         designation: ' Senior Software Engineer',
@@ -20,7 +32,7 @@ const experiences = [
             which led to a 46% increase in customer conversions from these pages to product pages and a 24% increase in overall
             revenue.`,
             `Incorporated Loqate, an address validation tool, on checkout and my account pages which led to a 9% decrease in cart
-            abandonment and reduced last-mile miss deliveries by half.`, 
+            abandonment and reduced last-mile miss deliveries by half.`,
             `Engineered an in-house image compression service that improved image sizes uploaded by marketing teams resulting in a
             reduction of “Bad URLs”, pages with Largest Contentful Paint (LCP) scores > 4 secs, on desktops devices from 1100 urls to
             0 and 2500 urls to 1100 on mobile devices.`,
@@ -30,7 +42,7 @@ const experiences = [
             Minimized bundle size by 150KB and brought down Total Blocking Time (TBT) from ~3.2 secs to ~1.1 secs.`]
     },
     {
-        index: 1,
+        index: 2,
         organization: 'Aegis School of Data Science',
         link: 'http://urls.prayujpillai.tech/t/aegis',
         designation: 'Data Science Intern',
@@ -39,7 +51,7 @@ const experiences = [
             , `Building the model included scrapping of Jobs, their requirements, matching skills between the Job and Student.`]
     },
     {
-        index: 2,
+        index: 3,
         organization: 'CaratLane',
         link: 'http://urls.prayujpillai.tech/t/caratlane',
         designation: 'Software Engineer Intern',
@@ -63,7 +75,7 @@ const projects = [
                 rel: 'nofollow'
             }
         ],
-        desc: `As part of Andrew Meads's Node JS course, I built a Task Manager API along with a Frontend. 
+        desc: `As part of Andrew Meads's Node JS course, I built a Task Manager API along with a Frontend.
             Features include Logging in, Registering, Adding Notes, Deleting Notes, Sorting Notes all while using JWT for authentication. I used Jest for automation and testing.`,
         languages: 'NodeJS, Express, Mongo, Jest'
     },
@@ -77,15 +89,15 @@ const projects = [
                 rel: 'nofollow'
             }
         ],
-        desc: `This project works alot like Bitly and other URL shorteners, however in this case I wanted a more customized experience. This application maps any url to 
-            a custom and unique endpoint. Whats more, if you don't have a name to give your new custom endpoint, you can set a list of default names. 
+        desc: `This project works alot like Bitly and other URL shorteners, however in this case I wanted a more customized experience. This application maps any url to
+            a custom and unique endpoint. Whats more, if you don't have a name to give your new custom endpoint, you can set a list of default names.
             I made use of some delicious Indian food as those defaults and you can see an example of this in the github link below. Most links on this page make use of
             the url shortner.`,
         languages: 'NodeJS, Mongodb'
     },
     {
         name: 'Chat App using Socket.io',
-        image: chatAppThumbnail, 
+        image: chatAppThumbnail,
         links: [
             {
                 name: 'wesbiteLink',
@@ -97,8 +109,8 @@ const projects = [
                 rel: 'nofollow'
             }
         ],
-        desc: `This was a really exciting Project because for the first time I used Socket.io to make real time, 
-            bidirectional communication. Features include entering Room ID and making a new or joining an Existing Room, 
+        desc: `This was a really exciting Project because for the first time I used Socket.io to make real time,
+            bidirectional communication. Features include entering Room ID and making a new or joining an Existing Room,
             Sending real time data for communication, Sending Current Location.`,
         languages: 'NodeJS, Socket.io'
     },
@@ -121,9 +133,9 @@ const projects = [
                 rel: 'nofollow'
             }
         ],
-        desc: `This Project stemmed from a Job opportunity that was very lucrative which involved building a inventory system. 
-            It is a full stack project using React JS, Node JS with Express JS and Mongo DB. 
-            Various features include Issue and Return of Games along with OTP generation and validation, 
+        desc: `This Project stemmed from a Job opportunity that was very lucrative which involved building a inventory system.
+            It is a full stack project using React JS, Node JS with Express JS and Mongo DB.
+            Various features include Issue and Return of Games along with OTP generation and validation,
             viewing list of past transactions, adding inventory and members, updating membership, etc.`,
         languages: 'Mongo, Express, React, Node'
     },
@@ -147,9 +159,9 @@ const projects = [
                 rel: 'nofollow'
             }
         ],
-        desc: `For the Final Year Project of my Bachelor Program in Computer Engineering, 
-            Our Team Developed a Timetable Generator that would create Timetables for a Univeristy, 
-            We solved this multiconstraint problem using AI (Genetic Algorithm). 
+        desc: `For the Final Year Project of my Bachelor Program in Computer Engineering,
+            Our Team Developed a Timetable Generator that would create Timetables for a Univeristy,
+            We solved this multiconstraint problem using AI (Genetic Algorithm).
             We also published a Research Paper regarding the methodology involved.`,
         languages: 'Python, React'
     },
@@ -168,9 +180,9 @@ const projects = [
                 rel: 'nofollow'
             }
         ],
-        desc: `Have you ever been in a situation where a bunch of your friends are out for a meal 
-            and when the Bill comes it's an ordeal to divide everyone's share. Well this takes care of it. 
-            Simply add each Dish and the Person Contribution and it will calculate each individual's contribution. 
+        desc: `Have you ever been in a situation where a bunch of your friends are out for a meal
+            and when the Bill comes it's an ordeal to divide everyone's share. Well this takes care of it.
+            Simply add each Dish and the Person Contribution and it will calculate each individual's contribution.
             It includes splitting taxes, tips, etc. in the appropriate proportion.`,
         languages: 'React, Flask'
     },
@@ -189,11 +201,11 @@ const projects = [
                 rel: 'nofollow'
             }
         ],
-        desc: `One of the earliest Projects I developed back in my Second Year of Engineering. 
-            Basically we used an Ardunio as a sort of front end, which took input from a user and displayed 
-            the answer using a keypad and LCD screen respectively. 
-            For the heavy lifting of computation we chose Python and 
-            it's simple function 'eval' to calculate expressions. 
+        desc: `One of the earliest Projects I developed back in my Second Year of Engineering.
+            Basically we used an Ardunio as a sort of front end, which took input from a user and displayed
+            the answer using a keypad and LCD screen respectively.
+            For the heavy lifting of computation we chose Python and
+            it's simple function 'eval' to calculate expressions.
             Data was transferred from the Arduino to Python using the Serial Port.`,
         languages: 'Arduino, Python'
     }
