@@ -13,11 +13,11 @@ const experiences = [
         organization: 'Amazon Web Services',
         link: 'https://aws.amazon.com/iot/',
         designation: 'Software Dev Engineer Intern',
-        duration: 'May 2023 - Present',
+        duration: 'May 2023 - Aug 2023',
         description: [
             `Part of AWS Consumer IoT Connectivity org handling Device Management, Device Defender, and Fleethub.`,
-            `Currently involved in the development of a secure shell terminal feature for Fleethub, allowing device technicians to ssh
-            into their devices and make updates to firmware and other system properties.`,
+            `Involved in developing a secure shell terminal feature for Fleethub, allowing device technicians to SSH into their devices
+            and update firmware and other system properties.`,
         ]
     },
     {
