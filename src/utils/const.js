@@ -5,6 +5,7 @@ import gameRentThumbnail from '../img/game-rent.webp';
 import timeTableThumbnail from '../img/timetable.webp';
 import billSplitterThumbnail from '../img/bill-splitter.webp';
 import iotPythonThumbnail from '../img/iot-python.webp';
+import kafkaTable from '../img/kafkaTable.png';
 
 const experiences = [
     {
@@ -61,6 +62,35 @@ const experiences = [
 ];
 
 const projects = [
+    {
+        name: 'Distributed Computing Assignments (CS 249)',
+        image: kafkaTable,
+        links: [
+            {
+                name: 'githubLink',
+                link: 'https://u.pryj.xyz/t/abd?message=ABD assignment',
+                rel: 'nofollow'
+            },
+            {
+                name: 'githubLink',
+                link: 'https://u.pryj.xyz/t/zk?message=Zookeeper Assignment',
+                rel: 'nofollow'
+            },
+            {
+                name: 'githubLink',
+                link: 'https://u.pryj.xyz/t/chain?message=Chain Replication',
+                rel: 'nofollow'
+            },
+            {
+                name: 'githubLink',
+                link: 'https://u.pryj.xyz/t/kafka?message=Kafka Table',
+                rel: 'nofollow'
+            }
+        ],
+        desc: `Collaborated with a team of fellow students to implement the ABD (Atomic Broadcast Design) and Chain Replication protocol based on their research papers. Implemented a consensus protocol leveraging ZooKeeper as the central oracle. Additionally, developed a scalable and
+        fault-tolerant Distributed Hash Table (DHT) using Apache Kafka. Proposed solutions had to be inter-operable, thread-safe, and robust. Links to solution can be found on the below GitHub links.`,
+        languages: 'Java, gRPC, Kafka, Redis, Zookeeper, SpringBoot.'
+    },
     {
         name: 'Task Manager',
         image: taskManagerThumbnail,
