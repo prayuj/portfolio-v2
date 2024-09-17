@@ -11,8 +11,19 @@ const experiences = [
     {
         index: 0,
         organization: 'Amazon Web Services',
+        link: 'https://aws.amazon.com/iam/',
+        designation: 'Software Dev Engineer',
+        duration: 'Jul 2024 - Present',
+        description: [
+            `Part of the Security Token Service (STS) team that enables temporary, limited-privilege credentials for users.`,
+            `Worked on credential rotation effort for hundreds of accounts that run our services to mitigate unauthorized access.`,
+        ]
+    },
+    {
+        index: 1,
+        organization: 'Amazon Web Services',
         link: 'https://aws.amazon.com/iot/',
-        designation: 'Software Dev Engineer Intern',
+        designation: 'Software Dev Engineer',
         duration: 'May 2023 - Aug 2023',
         description: [
             `Part of AWS Consumer IoT Connectivity org handling Device Management, Device Defender, and Fleethub.`,
@@ -21,7 +32,7 @@ const experiences = [
         ]
     },
     {
-        index: 1,
+        index: 2,
         organization: 'Cimpress',
         link: 'http://urls.prayujpillai.tech/t/cimpress',
         designation: ' Senior Software Engineer',
@@ -43,7 +54,7 @@ const experiences = [
             Minimized bundle size by 150KB and brought down Total Blocking Time (TBT) from ~3.2 secs to ~1.1 secs.`]
     },
     {
-        index: 2,
+        index: 3,
         organization: 'Aegis School of Data Science',
         link: 'http://urls.prayujpillai.tech/t/aegis',
         designation: 'Data Science Intern',
@@ -52,7 +63,7 @@ const experiences = [
             , `Building the model included scrapping of Jobs, their requirements, matching skills between the Job and Student.`]
     },
     {
-        index: 3,
+        index: 4,
         organization: 'CaratLane',
         link: 'http://urls.prayujpillai.tech/t/caratlane',
         designation: 'Software Engineer Intern',
