@@ -12,8 +12,8 @@ const StyledBadge = styled(Badge)`
 
 const About = ({id}) => {
     const one = <StyledSpan><h5><AccentedIndex>[1]</AccentedIndex></h5><h3>About me</h3></StyledSpan>
-    const two = <p>Hello! My name is Prayuj and I am a Graduate Student at <StyledLink target="_blank" rel="nofollow" href="https://urls.prayujpillai.tech/t/ladoo?message=San%20Jose%20State%20Univeristy%27s%20CS%20Page" className="content-hover-link">San Jose State Univeristy.</StyledLink></p>
-    const three = <p>I am currently a Software Dev Engineer Intern at <StyledLink target="_blank" rel="nofollow" href="https://aws.amazon.com/iot/" className="content-hover-link">AWS</StyledLink> working in the IoT Connectivity Org. I worked at <StyledLink target="_blank" rel="nofollow" href="http://urls.prayujpillai.tech/t/cimpress?message=Cimpress" className="content-hover-link">Cimpress</StyledLink> as part of their Business subsidiary, <StyledLink target="_blank" rel="noreferrer" href="http://urls.prayujpillai.tech/t/np?message=National%20Pen" className="content-hover-link">National Pen.</StyledLink></p>
+    const two = <p>Hello! My name is Prayuj. I graduated from <StyledLink target="_blank" rel="nofollow" href="https://urls.prayujpillai.tech/t/ladoo?message=San%20Jose%20State%20Univeristy%27s%20CS%20Page" className="content-hover-link">San Jose State Univeristy</StyledLink> with a Master's in Computer Science</p>
+    const three = <p>I am currently a Software Dev Engineer at <StyledLink target="_blank" rel="nofollow" href="https://aws.amazon.com/iam/" className="content-hover-link">AWS</StyledLink> working in the IAM Control Plane. I worked at <StyledLink target="_blank" rel="nofollow" href="http://urls.prayujpillai.tech/t/cimpress?message=Cimpress" className="content-hover-link">Cimpress</StyledLink> as part of their Business subsidiary, <StyledLink target="_blank" rel="noreferrer" href="http://urls.prayujpillai.tech/t/np?message=National%20Pen" className="content-hover-link">National Pen.</StyledLink></p>
     const four = <p>Here are a few technologies I am proficient in:</p>
 
     const technology = [

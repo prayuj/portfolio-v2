@@ -19,7 +19,7 @@ const imgStyles = {
 const Projects = ({ id }) => {
 
     return (
-        <StyledContainer id={id}>
+        <StyledContainer id={id} style={{paddingBottom: '5em'}}>
             <StyledRow>
                 <StyledCol>
                     <StyledSpan><h5><AccentedIndex>[3]</AccentedIndex></h5><h3>Projects</h3></StyledSpan>
@@ -30,7 +30,7 @@ const Projects = ({ id }) => {
                     <StyledCol style={cardColumnStyles}>
                         <Fade triggerOnce = {true}>
                             <StyledCard>
-                                {project.image ? 
+                                {project.image ?
                                     <LazyLoad height={200}>
                                         <Card.Img variant="top" src={project.image} style = {imgStyles} alt={`${project.name} Image`}/>
                                     </LazyLoad> : ''}
@@ -41,7 +41,7 @@ const Projects = ({ id }) => {
                                         {project.desc}
                                     </Card.Text>
                                 </Card.Body>
-                                <Card.Footer className="text-muted">    
+                                <Card.Footer className="text-muted">
                                     {project.links.map(linkObj =>
                                     <StyledLink href={linkObj.link} target="_blank" rel={linkObj.rel??""} style={linkStyles}>
                                         <i className={iconObjects[linkObj.name]}></i>

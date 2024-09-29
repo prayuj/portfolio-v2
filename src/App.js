@@ -4,7 +4,6 @@ import Home from './components/home';
 import About from './components/about';
 import Experience from './components/experience';
 import Projects from './components/projects';
-import Contact from './components/contact';
 import Footer from './components/footer';
 import { Container, Row, Col } from 'react-bootstrap';
 import styled from 'styled-components';
@@ -34,7 +33,6 @@ function App() {
             <About id="about" />
             <Experience id="experience" />
             <Projects id="projects" />
-            <Contact id="contact" />
           </Col>
         </Row>
       </Container>
