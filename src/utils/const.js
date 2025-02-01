@@ -24,7 +24,7 @@ const experiences = [
         organization: 'Amazon Web Services',
         link: 'https://aws.amazon.com/iot/',
         designation: 'Software Dev Engineer',
-        duration: 'May 2023 - Aug 2023',
+        duration: 'May 2023',
         description: [
             `Part of AWS Consumer IoT Connectivity org handling Device Management, Device Defender, and Fleethub.`,
             `Involved in developing a secure shell terminal feature for Fleethub, allowing device technicians to SSH into their devices
